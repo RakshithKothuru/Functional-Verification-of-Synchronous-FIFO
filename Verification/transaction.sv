@@ -62,8 +62,10 @@ class transaction;
 
   endgroup
 
-  function new();
+  function new(string inst_name = "cov_grp");
     cov_grp = new();
+    cov_grp.set_inst_name(inst_name);
   endfunction
 
+endclass
 endclass
