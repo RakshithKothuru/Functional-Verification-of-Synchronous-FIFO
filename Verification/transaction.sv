@@ -68,4 +68,3 @@ class transaction;
   endfunction
 
 endclass
-endclass
